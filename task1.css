@@ -1,0 +1,255 @@
+body{
+    display: flex;
+    background-color: rgb(239, 152, 119);
+    justify-content: center;
+    position: relative;
+}
+.screen{
+    width: 800px;
+    height: 800px;
+    z-index: 4;
+    margin-top: -10px;
+    margin-left: -550px;
+    position: absolute;
+    animation-name: screen;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes screen{
+    0%{left:550px; right:0px;}
+    100%{left:-600px; right:0px;}
+}
+.screen1{
+    width: 800px;
+    height: 800px;
+    z-index: 4;
+    margin-top: -10px;
+    margin-left: 550px;
+    position: absolute;
+    animation-name: screen1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes screen1{
+    0%{left:0px; right:0px;}
+    100%{left:900px; right:0px;}
+}
+@font-face {
+    font-family: 'senmoly_caliganregular';
+    src: url('senmoly_caligan-webfont.woff2') format('woff2'),
+         url('senmoly_caligan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.bg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: -2px 5px 15px 5px black;
+    background-color: rgb(254, 226, 54);
+    width: 1067px;
+    height: 80%;
+    margin-top: 8%;
+}
+
+.pongal{
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-top: 170px;
+    margin-left: 90px;
+    z-index: 3;
+}
+
+.cone{
+    width: 20%;
+    z-index: 3;
+}
+.bgimg{
+    width: 1080px;
+    height: 367px;
+    position: absolute;
+}
+.happy{
+    z-index: 3;
+    position: absolute;
+    margin-right: 800px;
+    margin-top: -200px;
+    font-size: 35px;
+    font-family: 'senmoly_caliganregular';
+    src: url('senmoly_caligan-webfont.woff2') format('woff2'),
+         url('senmoly_caligan-webfont.woff') format('woff');
+         color: rgb(236, 73, 73);
+}
+.pongal1{
+    z-index: 3;
+    position: absolute;
+    margin-right: 700px;
+    margin-top: -120px;
+    font-size: 35px;
+    font-family: 'senmoly_caliganregular';
+    src: url('senmoly_caligan-webfont.woff2') format('woff2'),
+         url('senmoly_caligan-webfont.woff') format('woff');
+         color: rgb(151, 96, 96);
+}
+.quotes{
+    z-index: 3;
+    position: absolute;
+    margin-right: 500px;
+    font-size: 20px;
+        font-family: "Sevillana", cursive;
+        color: rgb(31, 51, 235);
+}
+.rocket{
+    z-index: 1;
+    position: absolute;
+    width: 80px;
+    margin-right: 100px;
+    margin-top: 155px;
+    animation-name: rocket1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes rocket1{
+    0%{top:150px; right:80px;}
+    100%{top:-400px; right:80px;}
+}
+.rocket1{
+    z-index: 1;
+    position: absolute;
+    width: 80px;
+    margin-right: 150px;
+    margin-top: 153px;
+    animation-name: rocket2;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes rocket2{
+    0%{top:150px; right:150px;}
+    100%{top:-400px; right:150px;}
+}
+.rocket2{
+    z-index: 1;
+    position: absolute;
+    width: 80px;
+    margin-right: 250px;
+    margin-top: 156px;
+    animation-name: rocket3;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes rocket3{
+    0%{top:150px; right:250px;}
+    100%{top:-400px; right:250px;}
+}
+.rocket3{
+    z-index: 1;
+    position: absolute;
+    width: 80px;
+    margin-right: 280px;
+    margin-top: 158px;
+    animation-name: rocket4;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes rocket4{
+    0%{top:150px; right:280px;}
+    100%{top:-400px; right:280px;}
+}
+.rocket4{
+    z-index: 1;
+    position: absolute;
+    width: 80px;
+    margin-right: 320px;
+    margin-top: 157px;
+    animation-name: rocket5;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes rocket5{
+    0%{top:150px; right:320px;}
+    100%{top:-400px; right:320px;}
+}
+.rocket5{
+    z-index: 1;
+    position: absolute;
+    width: 80px;
+    margin-right:350px;
+    margin-top: 159px;
+    animation-name: rocket6;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes rocket6{
+    0%{top:150px; right:350px;}
+    100%{top:-400px; right:350px;}
+}
+.rocket6{
+    z-index: 1;
+    position: absolute;
+    width: 80px;
+    margin-right: 400px;
+    margin-top: 163px;
+    animation-name: rocket7;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes rocket7{
+    0%{top:150px; right:400px;}
+    100%{top:-400px; right:400px;}
+}
+.rocket7{
+    z-index: 1;
+    position: absolute;
+    width: 80px;
+    margin-right: 430px;
+    margin-top: 161px;
+    animation-name: rocket8;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes rocket8{
+    0%{top:150px; right:430px;}
+    100%{top:-400px; right:430px;}
+}
+.rocket8{
+    z-index: 1;
+    position: absolute;
+    width: 80px;
+    margin-right: 470px;
+    margin-top: 155px;
+    animation-name: rocket9;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes rocket9{
+    0%{top:150px; right:470px;}
+    100%{top:-400px; right:470px;}
+}
+
+.bg1{
+    position: absolute;
+    width: 1080px;
+    height: 367px;
+    z-index: 1;
+}
